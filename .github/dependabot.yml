@@ -1,0 +1,19 @@
+---
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+    # 'increase-if-necessary' updates the dependency version only if required to update version constraints(^ or ~), for a major version update.
+    versioning-strategy: increase-if-necessary
+    commit-message:
+      prefix: "chore(deps): Update "
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      # Check for updates to GitHub Actions daily
+      interval: daily
+    labels:
+      - "dependencies"
