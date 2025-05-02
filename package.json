@@ -35,7 +35,7 @@
     "@pax8/propulsion": "latest",
     "axios": "^1.7.2",
     "lodash": "^4.17.2",
-    "vue": "3.5.12",
+    "vue": "3.5.13",
     "vue-i18n": "^9.9.0",
     "vue-router": "^4.2.5"
   },
