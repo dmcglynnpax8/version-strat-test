@@ -16,4 +16,4 @@ updates:
       # Check for updates to GitHub Actions daily
       interval: daily
     labels:
-      - "dependencies"
+      - "dependencies1"
